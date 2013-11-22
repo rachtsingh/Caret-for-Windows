@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Caret for Windows
 
 # Pre Alpha
