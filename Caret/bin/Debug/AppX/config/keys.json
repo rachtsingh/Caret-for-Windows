@@ -1,0 +1,28 @@
+{
+  //basic navigation/application keys
+  "^-o": "session:open-file",
+  "^-w": "session:close-tab",
+  "^-s": "session:save-file",
+  "^-S": "session:save-file-as",
+  "^-n": "session:new-file",
+  "^-tab": "session:change-tab",
+  
+  //Chromebook fixes
+  "^-up": { "ace": "addCursorAbove" },
+  "^-down": { "ace": "addCursorBelow" },
+  
+  //Sublime compatibility
+  "^-l": "sublime:expand-to-line",
+  "^-d": { "ace": "selectMoreAfter" },
+  "^-p": { "command": "palette:open" },
+  "^-P": { "command": "palette:open", "argument": "command" },
+  "^-r": { "command": "palette:open", "argument": "reference" },
+  "^-g": { "command": "palette:open", "argument": "line" },
+  "^-m": { "ace": "jumptomatching" },
+  "^-M": { "command": "sublime:expand-to-matching" },
+  "^-q": { "command": "ace:togglemacro" },
+  "^-Q": { "ace": "replaymacro" },
+  "^--": { "command": "editor:adjust-zoom", "argument": -1 },
+  "^-=": { "command": "editor:adjust-zoom", "argument": 1 },
+  "^-0": { "command": "editor:default-zoom" }
+}

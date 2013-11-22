@@ -1,0 +1,626 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>APOLLO</Machine>
+    <WindowsUser>Rachit</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>33c5c309-39f4-4966-8e35-799299532062</PackageIdentityName>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\config\ace.json">
+      <PackagePath>config\ace.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\config\help.json">
+      <PackagePath>config\help.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\config\keys.json">
+      <PackagePath>config\keys.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\config\menus.json">
+      <PackagePath>config\menus.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\config\user.json">
+      <PackagePath>config\user.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\base.less">
+      <PackagePath>css\base.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\dialog.less">
+      <PackagePath>css\dialog.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\palette.less">
+      <PackagePath>css\palette.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\project.less">
+      <PackagePath>css\project.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\seed-dark.less">
+      <PackagePath>css\seed-dark.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\seed.less">
+      <PackagePath>css\seed.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\tabs.less">
+      <PackagePath>css\tabs.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\ui.less">
+      <PackagePath>css\ui.less</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\caret-dark.css">
+      <PackagePath>css\caret-dark.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\caret.css">
+      <PackagePath>css\caret.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\dialog.css">
+      <PackagePath>css\dialog.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\images\logo.scale-100.png">
+      <PackagePath>images\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\aceBindings.js">
+      <PackagePath>js\aceBindings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ace.js">
+      <PackagePath>js\ace\ace.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-chromevox.js">
+      <PackagePath>js\ace\ext-chromevox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-elastic_tabstops_lite.js">
+      <PackagePath>js\ace\ext-elastic_tabstops_lite.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-emmet.js">
+      <PackagePath>js\ace\ext-emmet.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-keybinding_menu.js">
+      <PackagePath>js\ace\ext-keybinding_menu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-language_tools.js">
+      <PackagePath>js\ace\ext-language_tools.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-modelist.js">
+      <PackagePath>js\ace\ext-modelist.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-old_ie.js">
+      <PackagePath>js\ace\ext-old_ie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-searchbox.js">
+      <PackagePath>js\ace\ext-searchbox.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-settings_menu.js">
+      <PackagePath>js\ace\ext-settings_menu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-spellcheck.js">
+      <PackagePath>js\ace\ext-spellcheck.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-split.js">
+      <PackagePath>js\ace\ext-split.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-static_highlight.js">
+      <PackagePath>js\ace\ext-static_highlight.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-statusbar.js">
+      <PackagePath>js\ace\ext-statusbar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-textarea.js">
+      <PackagePath>js\ace\ext-textarea.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-themelist.js">
+      <PackagePath>js\ace\ext-themelist.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\ext-whitespace.js">
+      <PackagePath>js\ace\ext-whitespace.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\keybinding-emacs.js">
+      <PackagePath>js\ace\keybinding-emacs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\keybinding-vim.js">
+      <PackagePath>js\ace\keybinding-vim.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-abap.js">
+      <PackagePath>js\ace\mode-abap.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-actionscript.js">
+      <PackagePath>js\ace\mode-actionscript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ada.js">
+      <PackagePath>js\ace\mode-ada.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-asciidoc.js">
+      <PackagePath>js\ace\mode-asciidoc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-assembly_x86.js">
+      <PackagePath>js\ace\mode-assembly_x86.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-autohotkey.js">
+      <PackagePath>js\ace\mode-autohotkey.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-batchfile.js">
+      <PackagePath>js\ace\mode-batchfile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-c9search.js">
+      <PackagePath>js\ace\mode-c9search.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-clojure.js">
+      <PackagePath>js\ace\mode-clojure.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-cobol.js">
+      <PackagePath>js\ace\mode-cobol.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-coffee.js">
+      <PackagePath>js\ace\mode-coffee.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-coldfusion.js">
+      <PackagePath>js\ace\mode-coldfusion.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-csharp.js">
+      <PackagePath>js\ace\mode-csharp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-css.js">
+      <PackagePath>js\ace\mode-css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-curly.js">
+      <PackagePath>js\ace\mode-curly.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-c_cpp.js">
+      <PackagePath>js\ace\mode-c_cpp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-d.js">
+      <PackagePath>js\ace\mode-d.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-dart.js">
+      <PackagePath>js\ace\mode-dart.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-diff.js">
+      <PackagePath>js\ace\mode-diff.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-django.js">
+      <PackagePath>js\ace\mode-django.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-dot.js">
+      <PackagePath>js\ace\mode-dot.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ejs.js">
+      <PackagePath>js\ace\mode-ejs.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-erlang.js">
+      <PackagePath>js\ace\mode-erlang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-forth.js">
+      <PackagePath>js\ace\mode-forth.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ftl.js">
+      <PackagePath>js\ace\mode-ftl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-glsl.js">
+      <PackagePath>js\ace\mode-glsl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-golang.js">
+      <PackagePath>js\ace\mode-golang.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-groovy.js">
+      <PackagePath>js\ace\mode-groovy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-haml.js">
+      <PackagePath>js\ace\mode-haml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-handlebars.js">
+      <PackagePath>js\ace\mode-handlebars.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-haskell.js">
+      <PackagePath>js\ace\mode-haskell.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-haxe.js">
+      <PackagePath>js\ace\mode-haxe.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-html.js">
+      <PackagePath>js\ace\mode-html.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-html_completions.js">
+      <PackagePath>js\ace\mode-html_completions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-html_ruby.js">
+      <PackagePath>js\ace\mode-html_ruby.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ini.js">
+      <PackagePath>js\ace\mode-ini.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-jade.js">
+      <PackagePath>js\ace\mode-jade.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-java.js">
+      <PackagePath>js\ace\mode-java.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-javascript.js">
+      <PackagePath>js\ace\mode-javascript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-json.js">
+      <PackagePath>js\ace\mode-json.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-jsp.js">
+      <PackagePath>js\ace\mode-jsp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-jsx.js">
+      <PackagePath>js\ace\mode-jsx.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-julia.js">
+      <PackagePath>js\ace\mode-julia.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-latex.js">
+      <PackagePath>js\ace\mode-latex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-less.js">
+      <PackagePath>js\ace\mode-less.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-liquid.js">
+      <PackagePath>js\ace\mode-liquid.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-lisp.js">
+      <PackagePath>js\ace\mode-lisp.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-livescript.js">
+      <PackagePath>js\ace\mode-livescript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-logiql.js">
+      <PackagePath>js\ace\mode-logiql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-lsl.js">
+      <PackagePath>js\ace\mode-lsl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-lua.js">
+      <PackagePath>js\ace\mode-lua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-luapage.js">
+      <PackagePath>js\ace\mode-luapage.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-lucene.js">
+      <PackagePath>js\ace\mode-lucene.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-makefile.js">
+      <PackagePath>js\ace\mode-makefile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-markdown.js">
+      <PackagePath>js\ace\mode-markdown.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-matlab.js">
+      <PackagePath>js\ace\mode-matlab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-mysql.js">
+      <PackagePath>js\ace\mode-mysql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-nix.js">
+      <PackagePath>js\ace\mode-nix.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-objectivec.js">
+      <PackagePath>js\ace\mode-objectivec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ocaml.js">
+      <PackagePath>js\ace\mode-ocaml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-pascal.js">
+      <PackagePath>js\ace\mode-pascal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-perl.js">
+      <PackagePath>js\ace\mode-perl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-pgsql.js">
+      <PackagePath>js\ace\mode-pgsql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-php.js">
+      <PackagePath>js\ace\mode-php.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-plain_text.js">
+      <PackagePath>js\ace\mode-plain_text.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-powershell.js">
+      <PackagePath>js\ace\mode-powershell.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-prolog.js">
+      <PackagePath>js\ace\mode-prolog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-properties.js">
+      <PackagePath>js\ace\mode-properties.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-protobuf.js">
+      <PackagePath>js\ace\mode-protobuf.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-python.js">
+      <PackagePath>js\ace\mode-python.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-r.js">
+      <PackagePath>js\ace\mode-r.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-rdoc.js">
+      <PackagePath>js\ace\mode-rdoc.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-rhtml.js">
+      <PackagePath>js\ace\mode-rhtml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-ruby.js">
+      <PackagePath>js\ace\mode-ruby.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-rust.js">
+      <PackagePath>js\ace\mode-rust.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-sass.js">
+      <PackagePath>js\ace\mode-sass.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-scad.js">
+      <PackagePath>js\ace\mode-scad.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-scala.js">
+      <PackagePath>js\ace\mode-scala.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-scheme.js">
+      <PackagePath>js\ace\mode-scheme.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-scss.js">
+      <PackagePath>js\ace\mode-scss.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-sh.js">
+      <PackagePath>js\ace\mode-sh.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-snippets.js">
+      <PackagePath>js\ace\mode-snippets.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-soy_template.js">
+      <PackagePath>js\ace\mode-soy_template.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-sql.js">
+      <PackagePath>js\ace\mode-sql.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-stylus.js">
+      <PackagePath>js\ace\mode-stylus.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-svg.js">
+      <PackagePath>js\ace\mode-svg.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-tcl.js">
+      <PackagePath>js\ace\mode-tcl.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-tex.js">
+      <PackagePath>js\ace\mode-tex.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-text.js">
+      <PackagePath>js\ace\mode-text.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-textile.js">
+      <PackagePath>js\ace\mode-textile.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-toml.js">
+      <PackagePath>js\ace\mode-toml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-twig.js">
+      <PackagePath>js\ace\mode-twig.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-typescript.js">
+      <PackagePath>js\ace\mode-typescript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-vbscript.js">
+      <PackagePath>js\ace\mode-vbscript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-velocity.js">
+      <PackagePath>js\ace\mode-velocity.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-verilog.js">
+      <PackagePath>js\ace\mode-verilog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-xml.js">
+      <PackagePath>js\ace\mode-xml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\mode-yaml.js">
+      <PackagePath>js\ace\mode-yaml.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-ambiance.js">
+      <PackagePath>js\ace\theme-ambiance.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-chaos.js">
+      <PackagePath>js\ace\theme-chaos.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-chrome.js">
+      <PackagePath>js\ace\theme-chrome.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-clouds.js">
+      <PackagePath>js\ace\theme-clouds.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-clouds_midnight.js">
+      <PackagePath>js\ace\theme-clouds_midnight.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-cobalt.js">
+      <PackagePath>js\ace\theme-cobalt.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-crimson_editor.js">
+      <PackagePath>js\ace\theme-crimson_editor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-dawn.js">
+      <PackagePath>js\ace\theme-dawn.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-dreamweaver.js">
+      <PackagePath>js\ace\theme-dreamweaver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-eclipse.js">
+      <PackagePath>js\ace\theme-eclipse.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-github.js">
+      <PackagePath>js\ace\theme-github.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-idle_fingers.js">
+      <PackagePath>js\ace\theme-idle_fingers.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-kr.js">
+      <PackagePath>js\ace\theme-kr.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-merbivore.js">
+      <PackagePath>js\ace\theme-merbivore.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-merbivore_soft.js">
+      <PackagePath>js\ace\theme-merbivore_soft.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-monokai.js">
+      <PackagePath>js\ace\theme-monokai.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-mono_industrial.js">
+      <PackagePath>js\ace\theme-mono_industrial.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-pastel_on_dark.js">
+      <PackagePath>js\ace\theme-pastel_on_dark.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-solarized_dark.js">
+      <PackagePath>js\ace\theme-solarized_dark.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-solarized_light.js">
+      <PackagePath>js\ace\theme-solarized_light.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-son_of_obsidian.js">
+      <PackagePath>js\ace\theme-son_of_obsidian.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-terminal.js">
+      <PackagePath>js\ace\theme-terminal.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-textmate.js">
+      <PackagePath>js\ace\theme-textmate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-tomorrow.js">
+      <PackagePath>js\ace\theme-tomorrow.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-tomorrow_night.js">
+      <PackagePath>js\ace\theme-tomorrow_night.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-tomorrow_night_blue.js">
+      <PackagePath>js\ace\theme-tomorrow_night_blue.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-tomorrow_night_bright.js">
+      <PackagePath>js\ace\theme-tomorrow_night_bright.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-tomorrow_night_eighties.js">
+      <PackagePath>js\ace\theme-tomorrow_night_eighties.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-twilight.js">
+      <PackagePath>js\ace\theme-twilight.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-vibrant_ink.js">
+      <PackagePath>js\ace\theme-vibrant_ink.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\theme-xcode.js">
+      <PackagePath>js\ace\theme-xcode.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-coffee.js">
+      <PackagePath>js\ace\worker-coffee.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-css.js">
+      <PackagePath>js\ace\worker-css.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-javascript.js">
+      <PackagePath>js\ace\worker-javascript.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-json.js">
+      <PackagePath>js\ace\worker-json.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-lua.js">
+      <PackagePath>js\ace\worker-lua.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\ace\worker-php.js">
+      <PackagePath>js\ace\worker-php.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\command.js">
+      <PackagePath>js\command.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\contextMenus.js">
+      <PackagePath>js\contextMenus.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\dialog.js">
+      <PackagePath>js\dialog.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\dom2.js">
+      <PackagePath>js\dom2.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\editor.js">
+      <PackagePath>js\editor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\file.js">
+      <PackagePath>js\file.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\fileManager.js">
+      <PackagePath>js\fileManager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\keys.js">
+      <PackagePath>js\keys.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\manos.js">
+      <PackagePath>js\manos.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\menus.js">
+      <PackagePath>js\menus.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\palette.js">
+      <PackagePath>js\palette.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\projectManager.js">
+      <PackagePath>js\projectManager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\require-config.js">
+      <PackagePath>js\require-config.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\sessions.js">
+      <PackagePath>js\sessions.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\settings.js">
+      <PackagePath>js\settings.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\statusbar.js">
+      <PackagePath>js\statusbar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\js\tab.js">
+      <PackagePath>js\tab.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\require.js">
+      <PackagePath>require.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rachit\Documents\Visual Studio 2013\Projects\Caret\Caret\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

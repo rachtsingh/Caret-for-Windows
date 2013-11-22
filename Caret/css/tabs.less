@@ -1,0 +1,69 @@
+.tabs {
+  background: @faded;
+  padding: 2px 2px 0px 0px;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: inset 4px 4px 16px rgba(0, 0, 0, .3);
+  
+  span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+    padding: 0px 0px 0px 4px;
+    margin-right: 3px;
+    opacity: .8;
+    background: @background;
+    border-radius: 2px 2px 0 0;
+    color: @foreground;
+    padding-bottom: 4px;
+    flex: 0 1 auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    box-shadow: inset 0px -4px 8px rgba(128, 128, 128, .3);
+    
+    transition: max-width .5s linear, -webkit-transform .2s ease, border-width .5s ease;
+    transition: max-width .5s linear, transform .2s ease, border-width .5s ease;
+    
+    &.active {
+      padding-bottom: 0px;
+      border-bottom: 4px solid @accent;
+      color: @foreground;
+      opacity: 1;
+      box-shadow: none;
+    }
+    
+    &.dragging {
+      width: 0;
+      padding: 0;
+    }
+    
+    &.hovering {
+      border-color: @faded;
+      border-left-width: 50px;
+      border-left-style: solid;
+    }
+    
+    &.enter {
+      //max-width: 0px;
+      -webkit-transform: translateY(24px);
+      transform: translateY(24px);
+    }
+    
+    .close {
+      font-size: 18px;
+      text-align: center;
+      color: @accent;
+      background: @background;
+      position: relative;
+      margin-left: 4px;
+      padding-right: 4px;
+      
+      &:hover {
+        color: @foreground;
+      }
+    }
+  }
+}

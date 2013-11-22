@@ -1,0 +1,72 @@
+﻿.dialog {
+  min-width: 250px;
+  max-width: 400px;
+  margin-top: 50px;
+  background: white;
+  color: black;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  padding: 10px;
+  border: 2px solid #AAA;
+  line-height: 170%;
+}
+.dialog .text {
+  white-space: pre-wrap;
+  text-align: center;
+  display: block;
+}
+.dialog .button-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  font-size: 16px;
+}
+.dialog .button-row button {
+  padding: 8px;
+  border: 1px solid #888;
+  text-align: center;
+  background: white;
+  color: black;
+  min-width: 75px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.dialog .button-row button:hover {
+  border: 1px solid black;
+}
+.modal-overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 99;
+}
+.credits {
+  white-space: initial;
+}
+.credits h2 {
+  font-size: 18px;
+  font-weight: normal;
+}
+.credits h3 {
+  font-size: 14px;
+}
+.credits a,
+.credits a:visited {
+  color: red;
+}
+.credits ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.credits ul li {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,85 @@
+/*
+
+All settings for Caret are stored in JSON-formatted files. If you open one of
+these files from the menu, then save it, it'll be dropped into Chrome's
+synchronized storage, which means that (theoretically) all your computers will
+get a copy. Comments are allowed, obviously--they'll be stripped out on load.
+
+Your individual settings are shallow-merged with a copy of the defaults 
+(available from Settings > View Defaults). When you first open them, your
+configuration will be a copy of the defaults, but I recommend stripping out
+anything you don't want to set explicitly, so that you can benefit if the
+default settings change in future releases.
+
+If your local file is not valid JSON, the defaults will be used. If your changes
+aren't being accepted, run the file (sans comments) through a JSON checker and
+make sure you don't have any syntax errors.
+
+*/
+
+{
+  //If the update prompt doesn't always work for you, disable it here.
+  "promptForUpdates": true,
+  
+  "defaultTheme": "monokai", //This should be any of the supported Ace themes
+  /*
+  Ace theme names are usually underscored, lowercase versions of the "friendly" names:
+    ambiance
+    chaos
+    chrome
+    clouds
+    clouds_midnight
+    cobalt
+    crimson_editor
+    dawn
+    dreamweaver
+    eclipse
+    github
+    idle_fingers
+    merbivore
+    merbivore_soft
+    monokai
+    mono_industrial
+    pastel_on_dark
+    solarized_dark
+    solarized_light
+    terminal
+    textmate
+    tomorrow
+    tomorrow_night
+    tomorrow_night_blue
+    tomorrow_night_bright
+    tomorrow_night_eighties
+    twilight
+    vibrant_ink
+    xcode
+  */
+  "uiTheme": "light", //dark or light, your pick
+  "cursor": "slim", //"ace", "slim", "smooth", "wide"
+  
+  "showWhitespace": false, //show whitespace characters (spaces, tabs, returns)
+  "indentation": 2, //indentation size
+  "useTabs": false, //will turn off Ace's setUseSoftTabs() option and use tab characters instead
+  "wordWrap": true,
+  "wrapLimit":false, //Set to the number of characters you want or false for full window
+  "showMargin": false,
+  "lineEndings": "auto", //newline format - "windows", "unix", or "auto"
+  
+  //only fixed-width fonts supported, for now
+  "fontFamily": "",
+  "fontSize": 13,
+  
+  //Web workers are used for code hinting in PHP, JavaScript, and JSON.
+  //We don't yet have a way to set the worker options, but you can disable it.
+  "useWorker": true,
+  //autocomplete triggers on Ctrl-Space
+  "autocomplete": true,
+  
+  //By default, the palette searches the current file only unless you widen the scope.
+  //If you'd like it to search all open files by default, set this option to true.
+  "searchAllFiles": false,
+  
+  //Crazy? You might like Vim keybindings. Only takes effect on restart
+  "emulateVim": false
+  
+}

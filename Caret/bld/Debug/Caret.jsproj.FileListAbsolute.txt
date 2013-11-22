@@ -1,0 +1,15 @@
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bin\Debug\ReverseMap\resources.pri
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bin\Debug\AppxManifest.xml
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bin\Debug\Caret.build.appxrecipe
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\priconfig.xml
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\priconfig.xml.intermediate
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\layout.resfiles
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\layout.resfiles.intermediate
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\resources.resfiles
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\resources.resfiles.intermediate
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\pri.resfiles
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\pri.resfiles.intermediate
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\qualifiers.txt
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\qualifiers.txt.intermediate
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\rachit\documents\visual studio 2013\Projects\Caret\Caret\bld\Debug\ProjectArchitectures.txt

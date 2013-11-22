@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: @background;
+    color: @foreground;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Helvetica", "Droid Sans", sans serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+a[target] {
+  color: @foreground;
+}
+
+:focus {
+  outline: @accent auto 5px;
+}
+
+//MACRO-LEVEL POSITIONING
+
+.toolbar {
+  flex: 0 0 30px;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.tabs {
+  flex: 0 0 32px;
+}
+
+.central {
+  display: flex;
+  flex-grow: 1;
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.editing {
+  display: flex;
+  flex-grow: 1;
+  align-items: stretch;
+  align-content: stretch;
+  flex-direction: column;
+}
+
+#editor {
+  flex-grow: 1;
+  padding-top: 2px;
+}
+
+.bottom-bar {
+  flex: 0 0 auto;
+  align-self: flex-end;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+  box-shadow: 0 -4px 4px rgba(0, 0, 0, .1);
+  z-index: 99;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}

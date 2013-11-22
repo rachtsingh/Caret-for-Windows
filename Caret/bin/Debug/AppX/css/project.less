@@ -1,0 +1,67 @@
+.project {
+  @background: #444;
+  @foreground: white;
+  
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: inset 4px 4px 16px rgba(0, 0, 0, .4);
+  background: @background;
+  z-index: 99;
+  flex-shrink: 0;
+
+  transition: width .3s;
+  //display: none;
+  width: 0px;
+  
+  &.show {
+    //display: block;
+    width: 200px;
+    padding: 4px 8px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    color: @foreground;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, .2);
+    overflow: hidden;
+    white-space: no-wrap;
+    padding: 4px;
+    
+    & > ul {
+      display: none;
+      padding-left: 4px;
+    }
+    
+    &.expanded > ul {
+      display: block;
+    }
+  }
+  
+  .directory {
+    color: darken(@foreground, 30%);
+    position: relative;
+    
+    &:after {
+      content: "▶";
+      margin-left: 6px;
+      display: inline-block;
+      transition: all .3s;
+    }
+  }
+  
+  .expanded > .directory:after {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+  
+}

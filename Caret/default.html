@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html>
+<head>
+    <title>Caret</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/caret-dark.css" id="theme" />
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <!-- Caret references -->
+    <link rel="stylesheet" type="text/css" href="css/caret-dark.css" id="theme" />
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/ace/ace.js"></script>
+    <script data-main="" src="require.js"></script>
+    <script src="/js/default.js"></script>
+
+
+</head>
+<body>
+
+    <ul class="toolbar"></ul>
+
+    <div class="central">
+
+        <div class="project"></div>
+
+        <div class="editing">
+            <div class="tabs"></div>
+            <div id="editor" style="font-family: Consolas"></div>
+        </div>
+
+    </div>
+
+    <div class="bottom-bar">
+        <div class="status-text"></div>
+        <div class="mode-theme">
+            <input type="text" id="goto" name="goto" maxlength="4" size="4" style="width: 15px; display: none;"/>
+            <select class="syntax" command="session:syntax" tabindex=-1></select>
+            <select class="theme" command="editor:theme" tabindex=-1></select>
+        </div>
+    </div>
+
+    <div class="palette">
+        <div class="main">
+            <h1 class="mode"></h1>
+            <input class="request"/>
+        </div>
+        <ul class="results"></ul>
+    </div>
+
+    <template id="palette-result" style="display: none;">
+        <li>
+            <div class="meta"></div>
+            <div class="detail"></div>
+        </li>
+    </template>
+
+    <template id="dialog" style="display: none;">
+        <div class="modal-overlay">
+            <div class="dialog">
+                <span class="text"></span>
+                <div class="button-row"></div>
+            </div>
+        </div>
+    </template>
+
+    <template id="about" style="display: none;">
+        <div>
+            <span class="credits">
+                <h2>Caret v.%VERSION%</h2>
+                <ul>
+                    <li>Written by <a href="http://thomaswilburn.net" target=_blank>Thomas Wilburn</a>
+                    <li>
+                        <a href="http://thomaswilburn.net/caret" target=_blank>[ Home Page ]</a>
+                        &mdash;
+                        <a href="https://chrome.google.com/webstore/support/fljalecfjciodhpcledpamjachpmelml#bug" target=_blank>[ Support ]</a>
+                    <li>Caret is available under a GPL license, which means that the <a href="https://github.com/thomaswilburn/Caret" target=_blank>source code</a> is freely available for you to use and modify as you see fit. If you find Caret useful, consider donating to the Free Software Foundation's <a href="https://my.fsf.org/donate/directed-donations/esp" target=_blank>Fund to End Software Patents</a>.
+                </ul>
+            </span>
+        </div>
+    </template>
+</body>
+</html>
