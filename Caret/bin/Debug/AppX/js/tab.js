@@ -113,6 +113,7 @@ define(["command", "file"], function(command, File) {
                   //console.log(language.name);
                   if (language.name == mode) {
                       ending = language.extensions;
+                      prettyEnding = language.label;
                   }
               });
               //console.log(fileending);
