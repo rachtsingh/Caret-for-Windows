@@ -12,6 +12,7 @@ WinJS Port features:
 + use WinJS API to select and open files (saving files has above problems, needs extensive tests)
 + user defined settings (not working, settings.js needs to be rewritten entirely)
 + key mapping parity with Sublime (a long way off)
+
 #### known issues
 + dragging tabs throws an error
 + trying to save a modified setting just reflushes it
